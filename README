@@ -1,0 +1,13 @@
+This is design doc.
+
+Requirements:
+Get information from web.
+Able to config how many layer to crawl.
+Multiple thread crawl
+
+Input:
+Base url
+
+Output:
+Stage1:
+output as scv file with column (url, desp, data)
