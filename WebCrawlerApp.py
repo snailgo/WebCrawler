@@ -1,5 +1,6 @@
-#!/usr/bin/env python2
+#!/usr/bin/env python
 
+from WebCrawler import WebCrawler
 
 # initial crawler
 # start crawler
@@ -12,8 +13,8 @@ def mainloop():
 # handle config
 # go to main loop
 def main():
-    pass
-
+    web_crawler = WebCrawler('Google', 'http://www.google.com')
+    web_crawler.run()
 
 if __name__ == '__main__':
     main()
